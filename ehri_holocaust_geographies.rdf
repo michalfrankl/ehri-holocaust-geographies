@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:schema="http://schema.org/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:org="http://www.w3.org/ns/org#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:skosthes="http://purl.org/iso25964/skos-thes#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:qb="http://purl.org/linked-data/cube#"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sh="http://www.w3.org/ns/shacl#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:euvoc="http://publications.europa.eu/ontology/euvoc#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:skosxl="http://www.w3.org/2008/05/skos-xl#">
+
+<rdf:Description rdf:about="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<dct:title xml:lang="en">EHRI Holocaust Geographies</dct:title>
+	<dct:description xml:lang="en">Classification for geospatial datasets in the field of Holocaust Studies.</dct:description>
+	<skos:hasTopConcept rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:hasTopConcept rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders"/>
+	<skos:hasTopConcept rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:hasTopConcept rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility"/>
+	<skos:hasTopConcept rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Places of persecution</skos:prefLabel>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/ghettos"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/camps"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/other_extermination"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/sites_violence"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/forced_labour"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+	<skos:topConceptOf rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/ghettos">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Ghettos</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/camps">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Concentration camps</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/other_extermination">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Other sites of extermination</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/sites_violence">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Sites of violence</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution/forced_labour">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Places of forced labour</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/places-of-persecution"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Borders</skos:prefLabel>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders/state"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders/administrative"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+	<skos:topConceptOf rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders/state">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">State borders</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders/administrative">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Administrative borders</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/borders"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Local history</skos:prefLabel>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/community"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/residence"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/religious"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/memorial"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/hiding"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/incidents"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+	<skos:topConceptOf rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/community">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Communities</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/residence">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Places of residence</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/religious">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Religious life</skos:prefLabel>
+	<skos:definition xml:lang="en">Typically places and objects like synagogues, cemeteries, etc.</skos:definition>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/memorial">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Memorial places</skos:prefLabel>
+	<skos:definition xml:lang="en">Memorials, museums, memorial plagues, Stolpersteine, etc.</skos:definition>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/hiding">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Hiding places</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local/incidents">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Incidents</skos:prefLabel>
+	<skos:definition xml:lang="en">Typically microhistorical interactions which include incidents like arrests, denunciations, controls, etc.</skos:definition>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/local"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Forced mobility</skos:prefLabel>
+	<skos:definition xml:lang="en">As of now, mixes infrastructure and movement of people. To be re-conceptualised…</skos:definition>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/assembly_points"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/transport_lines"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/deportations"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/death_marches"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+	<skos:topConceptOf rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/assembly_points">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Assembly points</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/transport_lines">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Railways and transport lines</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/deportations">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Deportations</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility/death_marches">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Death marches</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/forced_mobility"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Refugee spaces</skos:prefLabel>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/refugee_camps"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/border_crossings"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/boat_passages"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/consulates"/>
+	<skos:narrower rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/aid_organisations"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+	<skos:topConceptOf rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/refugee_camps">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Refugee camps</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/border_crossings">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Border crossings</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/boat_passages">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Boat passages</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/consulates">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Consulates</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces/aid_organisations">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Aid organisations</skos:prefLabel>
+	<skos:broader rdf:resource="https://portal.ehri-project.eu/vocabularies/ehri-holocaust-geographies/refugee_spaces"/>
+	<skos:inScheme rdf:resource="http://data.ehri-project.eu/vocabularies/ehri-holocaust-geographies"/>
+</rdf:Description>
+
+</rdf:RDF>
