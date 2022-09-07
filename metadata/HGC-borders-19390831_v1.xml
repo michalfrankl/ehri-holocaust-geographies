@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
+   xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:srv="http://www.isotc211.org/2005/srv"
+   xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts"
+   xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gmi="http://www.isotc211.org/2005/gmi"
+   xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
+   <gmd:fileIdentifier>
+      <gco:CharacterString>d6aa5d69-d157-4bc9-bcce-cd2fc710530f</gco:CharacterString>
+   </gmd:fileIdentifier>
+   <gmd:language>
+      <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+   </gmd:language>
+   <gmd:characterSet>
+      <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+   </gmd:characterSet>
+   <gmd:contact>
+      <gmd:CI_ResponsibleParty>
+         <gmd:individualName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:individualName>
+         <gmd:organisationName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:organisationName>
+         <gmd:positionName gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:positionName>
+         <gmd:contactInfo>
+            <gmd:CI_Contact>
+               <gmd:phone>
+                  <gmd:CI_Telephone>
+                     <gmd:voice gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:voice>
+                     <gmd:facsimile gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:facsimile>
+                  </gmd:CI_Telephone>
+               </gmd:phone>
+               <gmd:address>
+                  <gmd:CI_Address>
+                     <gmd:deliveryPoint gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:deliveryPoint>
+                     <gmd:city gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:city>
+                     <gmd:administrativeArea gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:administrativeArea>
+                     <gmd:postalCode gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:postalCode>
+                     <gmd:country gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:country>
+                     <gmd:electronicMailAddress gco:nilReason="missing">
+                        <gco:CharacterString/>
+                     </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+               </gmd:address>
+            </gmd:CI_Contact>
+         </gmd:contactInfo>
+         <gmd:role>
+            <gmd:CI_RoleCode codeListValue="pointOfContact" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+         </gmd:role>
+      </gmd:CI_ResponsibleParty>
+   </gmd:contact>
+   <gmd:dateStamp>
+      <gco:DateTime>2022-06-02T21:23:50.101Z</gco:DateTime>
+   </gmd:dateStamp>
+   <gmd:metadataStandardName>
+      <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+   </gmd:metadataStandardName>
+   <gmd:metadataStandardVersion>
+      <gco:CharacterString>1.0</gco:CharacterString>
+   </gmd:metadataStandardVersion>
+   <gmd:referenceSystemInfo>
+      <gmd:MD_ReferenceSystem>
+         <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+               <gmd:code>
+                  <gco:CharacterString>EPSG:4326</gco:CharacterString>
+               </gmd:code>
+            </gmd:RS_Identifier>
+         </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+   </gmd:referenceSystemInfo>
+   <gmd:identificationInfo>
+      <gmd:MD_DataIdentification>
+         <gmd:citation>
+            <gmd:CI_Citation>
+               <gmd:title>
+                  <gco:CharacterString>European borders on August 31, 1939</gco:CharacterString>
+               </gmd:title>
+               <gmd:date>
+                  <gmd:CI_Date>
+                     <gmd:date>
+                        <gco:Date>2022-05-31</gco:Date>
+                     </gmd:date>
+                     <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeListValue="publication" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode"/>
+                     </gmd:dateType>
+                  </gmd:CI_Date>
+               </gmd:date>
+            </gmd:CI_Citation>
+         </gmd:citation>
+         <gmd:abstract>
+            <gco:CharacterString>The dataset was created as a part of the the Holocaust Geographies Collaborative, based on about a hundred of sources. It was designed for use at small screen size to visualise border changes during the Nazi expansion and the Second World War.</gco:CharacterString>
+         </gmd:abstract>
+         <gmd:purpose gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:purpose>
+         <gmd:status>
+            <gmd:MD_ProgressCode codeListValue="completed" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ProgressCode"/>
+         </gmd:status>
+         <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+               <gmd:individualName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:individualName>
+               <gmd:organisationName>
+                  <gco:CharacterString>Holocaust Geographies Collaborative</gco:CharacterString>
+               </gmd:organisationName>
+               <gmd:positionName gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:positionName>
+               <gmd:contactInfo>
+                  <gmd:CI_Contact>
+                     <gmd:phone>
+                        <gmd:CI_Telephone>
+                           <gmd:voice gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:voice>
+                           <gmd:facsimile gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                     </gmd:phone>
+                     <gmd:address>
+                        <gmd:CI_Address>
+                           <gmd:deliveryPoint gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:deliveryPoint>
+                           <gmd:city gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:city>
+                           <gmd:administrativeArea gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:administrativeArea>
+                           <gmd:postalCode gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:postalCode>
+                           <gmd:country gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:country>
+                           <gmd:electronicMailAddress gco:nilReason="missing">
+                              <gco:CharacterString/>
+                           </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                     </gmd:address>
+                  </gmd:CI_Contact>
+               </gmd:contactInfo>
+               <gmd:role>
+                  <gmd:CI_RoleCode codeListValue="originator" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode"/>
+               </gmd:role>
+            </gmd:CI_ResponsibleParty>
+         </gmd:pointOfContact>
+         <gmd:resourceMaintenance>
+            <gmd:MD_MaintenanceInformation>
+               <gmd:maintenanceAndUpdateFrequency>
+                  <gmd:MD_MaintenanceFrequencyCode codeListValue="asNeeded" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_MaintenanceFrequencyCode"/>
+               </gmd:maintenanceAndUpdateFrequency>
+            </gmd:MD_MaintenanceInformation>
+         </gmd:resourceMaintenance>
+         <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+               <gmd:fileName>
+                  <gco:CharacterString>http://localhost:8095/geoserver/ehri_repo/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;layers=ehri_repo%3AAugust_31_1939&amp;bbox=-31.2641369057545%2C27.638023314983176%2C68.71793758396645%2C81.85938101010348&amp;width=768&amp;height=416&amp;srs=EPSG%3A4326&amp;styles=&amp;format=image%2Fpng</gco:CharacterString>
+               </gmd:fileName>
+               <gmd:fileDescription>
+                  <gco:CharacterString>thumbnail5961881302977516772.png</gco:CharacterString>
+               </gmd:fileDescription>
+            </gmd:MD_BrowseGraphic>
+         </gmd:graphicOverview>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="theme" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:descriptiveKeywords>
+            <gmd:MD_Keywords>
+               <gmd:keyword>
+                  <gco:CharacterString>World</gco:CharacterString>
+               </gmd:keyword>
+               <gmd:type>
+                  <gmd:MD_KeywordTypeCode codeListValue="place" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_KeywordTypeCode"/>
+               </gmd:type>
+            </gmd:MD_Keywords>
+         </gmd:descriptiveKeywords>
+         <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+               <gmd:accessConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:accessConstraints>
+               <gmd:useConstraints>
+                  <gmd:MD_RestrictionCode codeListValue="otherRestictions" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode"/>
+               </gmd:useConstraints>
+               <gmd:otherConstraints gco:nilReason="missing">
+                  <gco:CharacterString/>
+               </gmd:otherConstraints>
+            </gmd:MD_LegalConstraints>
+         </gmd:resourceConstraints>
+         <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_SpatialRepresentationTypeCode"/>
+         </gmd:spatialRepresentationType>
+         <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+               <gmd:equivalentScale>
+                  <gmd:MD_RepresentativeFraction>
+                     <gmd:denominator>
+                        <gco:Integer/>
+                     </gmd:denominator>
+                  </gmd:MD_RepresentativeFraction>
+               </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+         </gmd:spatialResolution>
+         <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+         </gmd:language>
+         <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode"/>
+         </gmd:characterSet>
+         <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:temporalElement>
+                  <gmd:EX_TemporalExtent>
+                     <gmd:extent>
+                        <gml:TimePeriod gml:id="d65270e396a1051934">
+                           <gml:beginPosition>1939-08-31</gml:beginPosition>
+                           <gml:endPosition>1939-08-31</gml:endPosition>
+                        </gml:TimePeriod>
+                     </gmd:extent>
+                  </gmd:EX_TemporalExtent>
+               </gmd:temporalElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:extent>
+            <gmd:EX_Extent>
+               <gmd:geographicElement>
+                  <gmd:EX_GeographicBoundingBox>
+                     <gmd:westBoundLongitude>
+                        <gco:Decimal>-31.2641</gco:Decimal>
+                     </gmd:westBoundLongitude>
+                     <gmd:eastBoundLongitude>
+                        <gco:Decimal>68.7179</gco:Decimal>
+                     </gmd:eastBoundLongitude>
+                     <gmd:southBoundLatitude>
+                        <gco:Decimal>27.638</gco:Decimal>
+                     </gmd:southBoundLatitude>
+                     <gmd:northBoundLatitude>
+                        <gco:Decimal>81.8594</gco:Decimal>
+                     </gmd:northBoundLatitude>
+                  </gmd:EX_GeographicBoundingBox>
+               </gmd:geographicElement>
+            </gmd:EX_Extent>
+         </gmd:extent>
+         <gmd:supplementalInformation gco:nilReason="missing">
+            <gco:CharacterString/>
+         </gmd:supplementalInformation>
+      </gmd:MD_DataIdentification>
+   </gmd:identificationInfo>
+   <gmd:distributionInfo>
+      <gmd:MD_Distribution>
+         <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+               <gmd:onLine>
+                  <gmd:CI_OnlineResource>
+                     <gmd:linkage>
+                        <gmd:URL>http://localhost:8095/geoserver/wms</gmd:URL>
+                     </gmd:linkage>
+                     <gmd:protocol>
+                        <gco:CharacterString>OGC:WMS</gco:CharacterString>
+                     </gmd:protocol>
+                     <gmd:name>
+                        <gco:CharacterString>ehri_repo:August_31_1939</gco:CharacterString>
+                     </gmd:name>
+                     <gmd:description>
+                        <gco:CharacterString>August_31_1939</gco:CharacterString>
+                     </gmd:description>
+                  </gmd:CI_OnlineResource>
+               </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+         </gmd:transferOptions>
+      </gmd:MD_Distribution>
+   </gmd:distributionInfo>
+   <gmd:dataQualityInfo>
+      <gmd:DQ_DataQuality>
+         <gmd:scope>
+            <gmd:DQ_Scope>
+               <gmd:level>
+                  <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode"/>
+               </gmd:level>
+            </gmd:DQ_Scope>
+         </gmd:scope>
+         <gmd:lineage>
+            <gmd:LI_Lineage>
+               <gmd:statement>
+                  <gco:CharacterString>Source: De Groot, Michael. ‘Building the New Order: 1938-1945’. Spatial History Project, Stanford University, 24 August 2010. https://web.stanford.edu/group/spatialhistory/cgi-bin/site/pub.php?id=51.</gco:CharacterString>
+               </gmd:statement>
+            </gmd:LI_Lineage>
+         </gmd:lineage>
+      </gmd:DQ_DataQuality>
+   </gmd:dataQualityInfo>
+</gmd:MD_Metadata>
